@@ -7,8 +7,7 @@
 
     android:layout_width="match_parent"
     android:background="#2196F3"
-    android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:layout_height="match_parent">
 
 
     <LinearLayout
@@ -41,6 +40,19 @@
 
 
             />
+
+
+
+
+
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:adSize="BANNER"
+            app:adUnitId="ca-app-pub-3940256099942544/6300978111"/>
+
+
 
         <Button
             android:layout_width="match_parent"
@@ -107,13 +119,41 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="30dp"
-            android:backgroundTint="#673ab7"
+            android:backgroundTint="#673AB7"
             android:textSize="20sp"
             android:text="Daily Motivation"
             android:id="@+id/motivation"
 
 
             />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:backgroundTint="#673AB7"
+            android:textSize="20sp"
+            android:text="Weekly Goals"
+            android:id="@+id/goals"
+
+            />
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:backgroundTint="#673AB7"
+            android:textSize="20sp"
+            android:text="Check Progress"
+            android:id="@+id/progress"
+
+
+            />
+
+
+
+
 
 
 

@@ -8,25 +8,26 @@
     android:background="#2196F3"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".NutritionAdvice">
+    tools:context=".CheckProgress">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Nutrition Advice"
-        android:textSize="30sp"
+        android:text="Check Progress"
         android:textAlignment="center"
-        android:layout_marginTop="20dp"
+        android:textSize="30sp"
+        android:layout_margin="20dp"
         android:textColor="#000000"
         android:fontFamily="sans-serif-condensed-light"
 
 
         />
 
+
     <ImageView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="200dp"
-        android:src="@drawable/image5"
+        android:src="@drawable/image3"
         android:scaleType="centerCrop"
         android:layout_margin="30dp"
 
@@ -34,12 +35,7 @@
 
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textColor="@color/white"
-        android:textSize="20sp"
-        android:layout_margin="30dp"
-        android:text="Eat a balanced, varied diet by filling half your plate with colorful fruits and vegetables, one-quarter with lean protein (fish, beans, nuts), and one-quarter with whole grains
-.\n Prioritize whole foods over processed items, limit added salt and sugar, and stay hydrated with water.\n Essential tips include using healthy oils like olive oil and maintaining regular meal times. "/>
+        android:layout_height="wrap_content"/>
 
 
 </LinearLayout>

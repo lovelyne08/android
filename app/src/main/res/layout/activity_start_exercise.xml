@@ -5,46 +5,35 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:orientation="vertical"
-    android:background="#2196F3"
     android:layout_width="match_parent"
+    android:background="#2196F6"
     android:layout_height="match_parent"
-    tools:context=".HealthyRecipes">
-
-
+    tools:context=".StartExercise">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Healthy Recipes"
+        android:text="Hydration Alert"
         android:textAlignment="center"
         android:textSize="30sp"
-        android:layout_marginTop="20dp"
+        android:layout_margin="20dp"
         android:textColor="#000000"
-        android:fontFamily="sans-serif-condensed-medium"
-
-
+        android:fontFamily="sans-serif-condensed-light"
 
 
         />
-
 
     <ImageView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="200dp"
-        android:src="@drawable/image5"
+        android:src="@drawable/exercise"
         android:scaleType="centerCrop"
         android:layout_margin="30dp"
-
-
         />
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textSize="20sp"
-        android:textColor="@color/white"
-        android:layout_margin="30dp"
-        android:text="These recipes show you how to prepare tasty, healthy meals.
-         They use fat-free milk, small amounts of vegetable oil, lean cuts of meat and many more things"/>
+
+
+
+
 
 </LinearLayout>

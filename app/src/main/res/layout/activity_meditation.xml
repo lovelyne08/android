@@ -4,6 +4,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
+    android:background="#2196F3"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -11,7 +12,8 @@
 
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="200dp"
+        android:layout_height="wrap_content"
+        android:text="Meditation"
         android:textSize="30sp"
         android:textAlignment="center"
         android:layout_marginTop="20dp"
@@ -24,6 +26,17 @@
         android:src="@drawable/image6"
         android:scaleType="centerCrop"
         android:layout_margin="30dp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:layout_margin="30dp"
+        android:text="Food meditation, or
+mindful eating, is the practice of engaging all senses to experience food fully, fostering gratitude, improving digestion, and reducing stress.\n By slowing down to observe colors, textures, and aromas, one can break impulsive eating habits and increase enjoyment. \nIt helps distinguish between physical hunger and emotional cravings. "
+
         />
 
 
