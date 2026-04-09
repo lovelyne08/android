@@ -58,7 +58,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="30dp"
-            android:backgroundTint="#3D1C78"
+            android:backgroundTint="#673AB7"
             android:fontFamily="sans-serif-condensed-light"
             android:textSize="20sp"
             android:text="Healthy Recipes"

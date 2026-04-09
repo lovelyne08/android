@@ -29,6 +29,13 @@
         android:scaleType="centerCrop"
         android:layout_margin="30dp"
         />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_margin="30dp"
+        android:textColor="@color/white"
+        android:text="you should have goals that can make your body healthy "/>
 
 
 </LinearLayout>
